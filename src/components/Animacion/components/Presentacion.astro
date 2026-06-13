@@ -1,0 +1,47 @@
+---
+import Information from "@components/Animacion/components/Information.astro";
+import Badge from "@/utils/Badge.astro";
+import ListNav from "@/utils/List-Nav.astro";
+import { basics } from "@/cv.json";
+
+import GitHub from "@/svg/CVIcon.astro";
+import LinkedIn from "@/svg/Linkedin.astro";
+import Mail from "@/svg/Mail.astro";
+import CVIcon from "@/svg/CVIcon.astro";
+
+const icons: Record<string, any> = {
+  GitHub,
+  LinkedIn,
+  Mail,
+  CVIcon,
+};
+
+const buttons = [
+  ...basics.profiles.map((profile) => ({
+    label: profile.network,
+    href: profile.url,
+    image: icons[profile.icon] || null,
+    target: "_blank",
+  })),
+  {
+    label: "Ver CV",
+    href: "/CV",
+    image: icons["CVIcon"],
+  },
+  {
+    label: basics.email,
+    href: basics.url,
+    image: icons["Mail"],
+    target: "_blank",
+  },
+];
+---
+
+<section class="flex flex-col justify-center items-center">
+  <Information>
+    <Badge>Disponible para trabajar</Badge>
+  </Information>
+  <nav class="w-auto h-auto mt-5">
+    <ListNav items={buttons} variant="alt" />
+  </nav>
+</section>

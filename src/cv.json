@@ -1,0 +1,232 @@
+{
+  "basics": {
+    "name": "Jesús Abelardo Medina Lázaro",
+    "fecnac": "15-05-2002",
+    "dni": "76384474",
+    "label": "Full Stack Developer interesado en proyectos donde pueda aprender y mejorar mis conocimientos.",
+    "image": "/download.webp",
+    "email": "lgsustm@gmail.com",
+    "phone": "+51 963 500 322",
+    "url": "mailto:lgsustm@gmail.com?subject=Hola!!&body=Quisiera contactarme contigo para un proyecto :).",
+    "summaries": [
+      {
+        "text": "Mi nombre real es 'Jesus Medina', pero me dicen 'Yisus', de ahí mi marca y logo 'LGsus'. Soy programador full stack, con 1 año de experiencia en proyectos de estudio."
+      },
+      {
+        "text": "A día de hoy estudio para aprender mas de lo que gusta hacer. '¿Como llegué a programar?' Buena pregunta, todo comenzó cuando empecé mis estudios."
+      },
+      {
+        "text": "No supe que era lo que quería, hasta que conocí la programacion, 'me gustó mucho desde el principio'; recuerdo que comencé con 'Java', haciendo una calculadora. Ya actualmente manejo otras formas de programar, y 'me gustan mucho los frameworks de desarrollo frontend', aunque si tengo demasiado interés en ampliar mi conocimiento en 'backend'."
+      }
+    ],
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Perú",
+      "countryCode": "",
+      "region": "La Libertad"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "john",
+        "url": "https://www.linkedin.com/in/lgsus-tm-16b592338",
+        "icon": "LinkedIn"
+      },
+      {
+        "network": "GitHub",
+        "username": "john",
+        "url": "https://github.com/LGsus113",
+        "icon": "GitHub"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Tesla",
+      "position": "Estudiante",
+      "url": "https://github.com/LGsus113/Tesla-Page-Astro.git",
+      "startDate": "2024-12-15",
+      "endDate": "2024-12-30",
+      "summary": "Clon de pagina antigua de Tesla con Astro, Tailwind y JS. Proyecto con fines educativos, para la practica y mejora del framework utilzado.",
+      "highlights": "latest Astro"
+    },
+    {
+      "name": "DAWI: Spring Boot",
+      "position": "Estudiante",
+      "url": "https://github.com/LGsus113/ProyectoDawi.git",
+      "startDate": "2024-10-15",
+      "endDate": "2024-12-30",
+      "summary": "Proyecto de presentacion final para curso, 5to ciclo. Sistema de Ventas en spring boot con templates de prueba.",
+      "highlights": "latest Java"
+    },
+    {
+      "name": "D-CoDX",
+      "position": "Estudiante",
+      "url": "https://github.com/LGsus113/D-CoDX-.-React-Vite.git",
+      "startDate": "2024-11-23",
+      "endDate": "2024-12-1",
+      "summary": "Proyecto de presentacion final para curso, 5to ciclo. Continuación de pagina D-CoDX, versión ReactJS.",
+      "highlights": "latest React"
+    },
+    {
+      "name": "D-CoDX",
+      "position": "Estudiante",
+      "url": "https://github.com/LGsus113/D-CoDX.git",
+      "startDate": "2023-12-10",
+      "endDate": "2024-04-16",
+      "summary": "Proyecto de presentacion final para curso, 4to ciclo. Pagina creada como proyecto integrador para diseñadores y programadores.",
+      "highlights": "latest HTML"
+    },
+    {
+      "name": "SMV: Inventario",
+      "position": "Estudiante",
+      "url": "https://github.com/LGsus113/D-CoDX.git",
+      "startDate": "2023-04-13",
+      "endDate": "2024-06-08",
+      "summary": "Proyecto de 4to cibertec. Incluye Backend con Java Srping Boot y Frontend con React. Proyecto de Inventario y baja de productos de almacen para la SMV.",
+      "highlights": "latest React - Spring Boot"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Cibertec",
+      "url": "#",
+      "area": "Computación e Informatica, computación y sistemas, desarrollo de aplicaciones y gestor de base de datos.",
+      "studyType": "Tecnico Superior",
+      "startDate": "2022-06-07",
+      "endDate": null,
+      "score": "18",
+      "courses": [
+        "Base de Datos - SQL",
+        "Base de Datos - No SQL",
+        "Desarrollo Web",
+        "POO",
+        "Diseño de Sistemas",
+        "Lenguaje de Programación"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Avanzado"
+    },
+    {
+      "name": "CSS",
+      "level": "Avanzado"
+    },
+    {
+      "name": "TailwindCss",
+      "level": "Medio"
+    },
+    {
+      "name": "JavaScript",
+      "level": "Medio"
+    },
+    {
+      "name": "React",
+      "level": "Medio"
+    },
+    {
+      "name": "Astro",
+      "level": "Medio"
+    },
+    {
+      "name": "Java",
+      "level": "Medio"
+    },
+    {
+      "name": "SpringBoot",
+      "level": "Medio"
+    },
+    {
+      "name": "SQL Server",
+      "level": "Medio"
+    },
+    {
+      "name": "MySQL",
+      "level": "Medio"
+    },
+    {
+      "name": "MongoDB",
+      "level": "Básico"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Tesla Landing - Clon",
+      "startDate": "2024-12-02",
+      "endDate": null,
+      "description": "Clon de la pagina de tesla antigua, involucra la creacion de las animaciones y diseño de la pagina en base a la pagina original, todo esto realizado con Astro, Tailwind y JS. Para aprendizaje, practica y mejora en el framework utilizado . Optimizado solo para desktop con un enfoque a mejorar en responsividad para mas adelante; el uso de animaciones tambien optimizados solo para desktop.",
+      "highlights": ["Won award at AIHacks 2016"],
+      "url": "#",
+      "github": "https://github.com/LGsus113/Tesla-Page-Astro.git",
+      "technologies": ["Astro", "TailwindCss", "JavaScript"]
+    },
+    {
+      "name": "D-CoDX - Proyecto Cibertec",
+      "startDate": "2024-10-23",
+      "endDate": "2024-12-1",
+      "description": "Proyecto educativo para presentacion final de curso en cibertec, 5to ciclo. Intención de aprendizaje para programadores y disenadores con la busqueda de un entorno de trabajo saludable. Proyecto maqueta en dos versiones: versión con ReactJS y versió nativa con HTML, CSS y JS. Esta iniciativa busca dar una idea para generar una pagina web que ivolucre el trabajo ambos tipos de freelancers.",
+      "highlights": ["Won award at AIHacks 2016"],
+      "url": "#",
+      "github": "https://github.com/LGsus113/D-CoDX-.-React-Vite.git",
+      "technologies": ["React", "CSS"]
+    }
+  ]
+}

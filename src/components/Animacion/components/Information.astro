@@ -1,0 +1,35 @@
+---
+import ImageDev from "@components/Animacion/components/Image-Dev.astro";
+---
+
+<div class="flex flex-col lg:flex-row justify-center items-center gap-7 p-2">
+  <ImageDev />
+  <div class="flex flex-col gap-2 justify-center items-start">
+    <h1
+      class="text-white/80 text-2xl lg:text-4xl font-bold flex flex-row gap-2 xl:gap-4"
+    >
+      <span class="drop-shadow-xs drop-shadow-black">Hey, soy LGsus</span>
+      <a
+        href="https://www.linkedin.com/in/lgsus-tm-16b592338"
+        target="_blank"
+        rel="noopener"
+        class="flex justify-center items-center"
+      >
+        <slot />
+      </a>
+    </h1>
+    <h1
+      class="text-white/85 text-5xl lg:text-7xl font-bold flex flex-row gap-4 tracking-tighter font-press drop-shadow-sm drop-shadow-black"
+    >
+      Jesus Medina
+    </h1>
+  </div>
+</div>
+<h2 class="text-lg xl:text-2xl text-wrap my-5">
+  <span class="text-purple-300">+3 Años de Experiencia. </span>
+  <span class="text-cyan-300">Mozo de Eventos Privados. </span>
+  <span class="text-yellow-100">De Trujillo, Perú. </span>
+  <span class="text-green-400"> Ansioso por mejorar </span>
+  <span class="text-yellow-100">y</span>
+  <span class="text-green-400"> Brindar servicio de calidad </span>
+</h2>

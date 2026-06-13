@@ -1,0 +1,43 @@
+---
+import type { ListNavProps } from "@/typescript/type";
+const { items, variant } = Astro.props as ListNavProps;
+---
+
+<ul
+  class:list={{
+    "flex flex-wrap gap-x-2 text-base font-semibold": true,
+    "flex-row": variant === "alt",
+    "flex-col lg:flex-row": variant !== "alt",
+  }}
+>
+  {
+    items.map((item) => {
+      const ImageComponent = item.image;
+
+      return (
+        <li
+          data-list-linkers
+          class:list={{
+            flex: true,
+            "border-2 border-white rounded-full mb-4 xl:mr-4 text-white bg-black/40 backdrop-blur-sm hover:text-purple-300 hover:border-purple-300 hover:[&>a]:scale-95 active:scale-110 transition-all duration-200":
+              variant === "alt",
+            "text-white": variant === "default",
+            "text-gray-800 dark:text-white hover:underline":
+              variant === "third",
+          }}
+        >
+          <a
+            href={item.href}
+            class="w-full flex flex-1 items-center gap-2 px-4 py-2 transition-all duration-300"
+            target={item.target ? `${item.target}` : "_self"}
+          >
+            {ImageComponent && (
+              <ImageComponent class="size-4 xl:size-6 text-current" />
+            )}
+            {item.label}
+          </a>
+        </li>
+      );
+    })
+  }
+</ul>

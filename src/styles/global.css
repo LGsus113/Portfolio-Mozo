@@ -1,1 +1,56 @@
 @import "tailwindcss";
+
+@layer utilities {
+  .sombra-3d {
+    @apply filter drop-shadow-[2px_2px_2px_rgba(0,0,0,0.6)];
+  }
+  .time-line-scroll-animation {
+    view-timeline-name: --text;
+    view-timeline-axis: block;
+
+    animation-timeline: --text;
+    animation-name: show;
+
+    animation-range: entry 15% cover 50%;
+    animation-fill-mode: both;
+  }
+  @keyframes show {
+    from {
+      opacity: 0;
+      transform: translateY(120px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+:root {
+  color-scheme: light dark;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  overscroll-behavior: none;
+  font-family: var(--font-onest);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+#logo-mask {
+  background: white;
+  mask-image: url("/LogoLGsus.webp");
+  mask-position: center 47%;
+  mask-repeat: no-repeat;
+  mask-size: clamp(5000vh, 3500%, 0vh);
+}
